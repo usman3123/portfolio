@@ -273,7 +273,6 @@ body {
     background-position-y: 20%;
     background-repeat: no-repeat;
     background-size: 50% auto;
-    padding: 0 130px;
 }
 
 .about-intro {
@@ -475,6 +474,7 @@ footer {
     .first-card {
         flex-direction: row;
         max-width: 1156px;
+        height: 348px;
     }
     .first-card > img {
         max-width: 684px;
@@ -488,6 +488,7 @@ footer {
     .about-section {
         background-position-x:right ;
         background-position-y:top ;
+        padding: 0 130px;
     }
     .about-intro {
         padding: 130px 0px;
@@ -561,7 +562,6 @@ footer {
 
 @media (max-width:1040px) {
     .first-card > img {
-        width: 50%;
         height: 100%;
         object-fit: cover;
     }
