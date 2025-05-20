@@ -735,6 +735,13 @@ footer {
     height: 20px;
 }
 
+.p1 {
+    display: block;
+   }
+
+   .p2 {
+       display: block;
+   }
 .livebtn {
     width: 43.6%;
     height: 48px;

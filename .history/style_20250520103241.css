@@ -725,6 +725,10 @@ footer {
     max-height: 586px;
 }
 
+.p3 {
+    display: none;
+}
+
 .paragraph {
     color: #344563;
     font-size: 2rem;

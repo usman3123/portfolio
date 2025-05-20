@@ -631,7 +631,7 @@ footer {
 .blur {
     backdrop-filter: blur(80px);
     z-index: 100;
-    filter: blur(10px);
+    filter: blur(20px);
 }
 
 .none {
@@ -686,6 +686,7 @@ footer {
     width: 100vw;
     max-width: 1440px;
     height: 100vh;
+    background-color: #c1c7d0;
     backdrop-filter: blur(5px);
     position: relative;
     display: none;
@@ -699,12 +700,10 @@ footer {
     max-height: 1163px;
     position: absolute;
     top: 50%;
-    left: 100%;
+    left: 50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 15px
+    flex-wrap: wrap;
     
 }
 
@@ -723,6 +722,10 @@ footer {
     height: 82.3%;
     max-width: 1108px;
     max-height: 586px;
+}
+
+.p3 {
+    display: none;
 }
 
 .paragraph {
@@ -773,22 +776,11 @@ footer {
 .btnimg {
     filter: brightness(0) invert(1);
 }
-#close-popup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: black;
-    border-radius: 12px;
-    width: 30px;
-    height: 30px;
-}
 .style {
     position: fixed;
     transform: translate(-50%,-50%);
     top: 50%;
 }
-
 
 .languages {
     padding: 9px 0;
@@ -800,7 +792,7 @@ footer {
 }
 .icon-head {
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .lang {
     font-size: 1rem;
