@@ -207,7 +207,7 @@ body {
     position: absolute;
     flex-direction: column;
     gap: 18px;
-    padding: 8px;
+    padding: 8px 20px;
     bottom: 375px;
     width: 100%;
     top: 48px;
@@ -470,9 +470,6 @@ footer {
         color: black;
         /* width: 600px; */
     }
-    .second-card-content {
-        padding: 0px 30px;
-    }    
     .first-card {
         flex-direction: row;
         max-width: 1156px;
@@ -605,7 +602,7 @@ footer {
 
     }
     .hero-heading {
-        font-size: 62px;
+        font-size: 72px;
         line-height: 81.5px;
     }
     .second-content-button{
