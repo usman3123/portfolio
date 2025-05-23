@@ -629,8 +629,9 @@ footer {
 }
 
 .blur {
+    backdrop-filter: blur(80px);
     z-index: 100;
-    filter: blur(15px);
+    filter: blur(10px);
 }
 
 .none {

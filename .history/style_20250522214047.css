@@ -629,8 +629,9 @@ footer {
 }
 
 .blur {
+    backdrop-filter: blur(80px);
     z-index: 100;
-    filter: blur(15px);
+    filter: blur(10px);
 }
 
 .none {
@@ -690,14 +691,6 @@ footer {
     display: none;
 }
 
-.firstcontainer {
-    width: 100vw;
-    max-width: 1440px;
-    height: 100vh;
-    backdrop-filter: blur(5px);
-    position: relative;
-    display: none;
-}
 .inner-container {
     padding: 24px;
     width: 100%;

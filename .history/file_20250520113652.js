@@ -1,5 +1,16 @@
 arr = [
     {
+      img : "/assets/multi ps.webp",
+      h4 : "Multi-Post Stories",
+      p1 : "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      p2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
+      lang1 :"CSS",
+      lang2 : "HTML",
+      lang3 : "Bootstrap",
+      lang4 :"Ruby",
+      button :"See Project"
+    },
+    {
         img : "/assets/chat 1 secondcard.png",
         h4 : "Professional Art Printing Data",
         p1 : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
@@ -162,59 +173,48 @@ document.querySelectorAll(".cardbtn").forEach((btn, index) => {
     butn.addEventListener("click",()=> {
         bodyy.classList.add("blur");
         pop()
-        document.querySelector(".firstcontainer").style.display = "block"; 
+        document.querySelector(".container").style.display = "block"; 
 
 
     })
 
    function pop() {
-    const popcontainer = document.querySelector(".firstcontainer");
+    const popcontainer = document.querySelector(".container");
         popcontainer.innerHTML = `<div class="inner-container ">
-            <div class="icon-head flex">
-                <h2 class="heading flex">Multi-Post Stories</h2>
-                <i class="fa-solid fa-x" id = "close-popup" ></i>
+        <div class="icon-head flex">
+            <h2 class="heading flex">Multi-Post Stories</h2>
+            <i class="fa-solid fa-x" id = "close-popup" ></i>
+        </div>
+        <div class="languages flex">
+            <p class="lang">Canopy</p>
+            <p class="lang">Back End Dev</p>
+            <p class="lang">HTML</p>
+        </div>
+        </div>
+        <img src="/assets/multi ps.webp">
+        <div class="paragraph">
+            <p class="p3">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s."</p>
+        </div>
+        
+        <div class="buttons flex">
+            <div class="livebtn flex">
+                <p>See live</p>
+                <img src="/assets/Icon - Export.svg" class="btnimg">
             </div>
-            <div class="languages flex">
-                <p class="lang">Canopy</p>
-                <p class="lang">Back End Dev</p>
-                <p class="lang">HTML</p>
+            <div class="sourcebtn flex">
+                <p>See source</p>
+                <img src="/assets/Icon -GitHub.png" class="btnimg">
             </div>
-            <img class = "wrapimg"  src="/assets/multi ps.webp">
-            <div class="paragraph">
-                <p class="p3">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s."</p>
-            </div>
-            
-            <div class="buttons flex">
-                <div class="livebtn flex">
-                    <p>See live</p>
-                    <img src="/assets/Icon - Export.svg" class="btnimg">
-                </div>
-                <div class="sourcebtn flex">
-                    <p>See source</p>
-                    <img src="/assets/Icon -GitHub.png" class="btnimg">
-                </div>
-            </div>
+        </div>
                 
         </div>`;
-        const first = document.querySelector(".firstcontainer")
         document.querySelector("#close-popup").addEventListener("click", () => {
             popcontainer.style.display = "none"; 
             bodyy.classList.remove("blur");
           }); 
-
    }
 }) 
-// {
-//     img : "/assets/multi ps.webp",
-//     h4 : "Multi-Post Stories",
-//     p1 : "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-//     p2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.",
-//     lang1 :"CSS",
-//     lang2 : "HTML",
-//     lang3 : "Bootstrap",
-//     lang4 :"Ruby",
-//     button :"See Project"
-//   },
+
 
 
 
